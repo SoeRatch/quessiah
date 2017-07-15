@@ -1,0 +1,61 @@
+@import url('http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700');
+
+
+
+#but{
+	position: relative;
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	background-color: rgba(219, 87, 51, 1);
+	font-family: 'Yanone Kaffeesatz';
+	
+	font-size: 2.5em;
+	display: block;
+	padding: 1px;
+	border-radius: 8px;
+	box-shadow: 0px 6px 0px rgba(219, 31, 5, 1), 0px 9px 25px rgba(0, 0, 0, .7);;
+	text-align: center;
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border: solid 5px #969696;
+}
+
+.deletes {
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  display: inline-block;
+  color: #55acee;
+  border: 2px #55acee solid;
+}
+
+.deletes:hover {
+  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+}

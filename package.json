@@ -1,0 +1,21 @@
+{
+  "name": "design_your_shot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-ejs-layouts": "^2.3.0",
+    "jsonparser": "^1.0.1",
+    "logger": "0.0.1",
+    "mongoose": "^4.11.2",
+    "morgan": "^1.8.2"
+  }
+}
